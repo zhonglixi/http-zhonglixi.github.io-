@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# 钢铁烈阳牛马名单（供大家参考）
 
-You can use the [editor on GitHub](https://github.com/zhonglixi/http-zhonglixi.github.io-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+------
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+| 名称             | 犯罪日期   | 罪行                                                 |
+| ---------------- | ---------- | ---------------------------------------------------- |
+| 家有一只小猴子   | 不详       | 司马提莫                                             |
+| 心心了了         | 长期犯罪   | 放狗咬人，带几个狗就在那里装b                        |
+| 游到海水变蓝     | 不详       | 摆烂                                                 |
+| 小星星           | 不详       | 带'小心心的保安'咬人                                 |
+| dan              | 不详       | 选个b安妮a人技能都丢不明白，后发抖音装可爱博取同情。 |
+| 薇薇一动你恩恩叫 | 2021-12-29 | 泰坦菜                                               |
+| 太晚熟           | 2021-12-29 | 又菜又嘴硬                                           |
+| 提你阿莫         | 2021-12-29 | 上单牧魂人养爹                                       |
+| 一个人的大冒险   | 2021-12-26 | 豹女，菜还浪                                         |
+| 城南丶C          | 2021-12-25 | 司马上单狗头，晋级赛生死局输掉                       |
+| 秘奥义暗影杀缭乱 | 2021-12-26 | 刀妹玩的跟一坨屎一样，一辈子单带，不参团，1打5送死   |
+| 你最好有妈       | 2021-12-25 | 摆烂永恩上单                                         |
+| 丿缪斯Karel      | 2021-12-25 | 非常菜的皇子                                         |
+| 木兰不会         | 2021-12-24 | 狗屎艾克（第二件就出金身）                           |
+| 钻石摆烂王       | 2021-12-25 | 男枪连续坑我两把，纯摆烂哥                           |
 
-```markdown
-Syntax highlighted code block
+本名单所叙述内容均属实，如有不服，欢迎来辩。同时，我希望广大上分玩家能给我提供更多信息。
 
-# Header 1
-## Header 2
-### Header 3
+联系方式：1524326361@qq.com
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhonglixi/http-zhonglixi.github.io-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
