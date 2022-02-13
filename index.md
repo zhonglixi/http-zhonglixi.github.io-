@@ -1,57 +1,70 @@
-# 钢铁烈阳牛马名单（供大家参考）
+<!DOCTYPE html>
+<html lang="zh-cn">
 
-------
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5抽奖转盘代码</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/main.js">
+	</script>
+</head>
 
+<body>
+	<script src="/demos/googlegg.js"></script>
+	<div class="turnplate_box">
+		<canvas id="myCanvas" width="300px" height="300px">抱歉！浏览器不支持。</canvas>
+		<canvas id="myCanvas01" width="200px" height="200px">抱歉！浏览器不支持。</canvas>
+		<canvas id="myCanvas03" width="200px" height="200px">抱歉！浏览器不支持。</canvas>
+		<canvas id="myCanvas02" width="150px" height="150px">抱歉！浏览器不支持。</canvas>
+		<button id="tupBtn" class="turnplatw_btn"></button>
+	</div>
+	<!-- 更改系统默认弹窗 -->
+	<script type="text/javascript">
+		window.alert = function (str) {
+			var shield = document.createElement("DIV");
+			shield.id = "shield";
+			shield.style.position = "absolute";
+			shield.style.left = "50%";
+			shield.style.top = "50%";
+			shield.style.width = "280px";
+			shield.style.height = "150px";
+			shield.style.marginLeft = "-140px";
+			shield.style.marginTop = "-110px";
+			shield.style.zIndex = "25";
+			var alertFram = document.createElement("DIV");
+			alertFram.id = "alertFram";
+			alertFram.style.position = "absolute";
+			alertFram.style.width = "280px";
+			alertFram.style.height = "150px";
+			alertFram.style.left = "50%";
+			alertFram.style.top = "50%";
+			alertFram.style.marginLeft = "-140px";
+			alertFram.style.marginTop = "-110px";
+			alertFram.style.textAlign = "center";
+			alertFram.style.lineHeight = "150px";
+			alertFram.style.zIndex = "300";
+			strHtml = "<ul style=\"list-style:none;margin:0px;padding:0px;width:100%\">\n";
+			strHtml += " <li style=\"background:#626262;text-align:left;padding-left:20px;font-size:14px;font-weight:bold;height:25px;line-height:25px;border:1px solid #F9CADE;color:white\">[中奖提醒]</li>\n";
+			strHtml += " <li style=\"background:#787878;text-align:center;font-size:12px;height:95px;line-height:95px;border-left:1px solid #F9CADE;border-right:1px solid #F9CADE;color:#DCC722\">" + str + "</li>\n";
+			strHtml += " <li style=\"background:#626262;text-align:center;font-weight:bold;height:30px;line-height:25px; border:1px solid #F9CADE;\"><input type=\"button\" value=\"确 定\" onclick=\"doOk()\" style=\"width:80px;height:20px;background:#626262;color:white;border:1px solid white;font-size:14px;line-height:20px;outline:none;margin-top: 4px\"/></li>\n";
+			strHtml += "</ul>\n";
+			alertFram.innerHTML = strHtml;
+			document.body.appendChild(alertFram);
+			document.body.appendChild(shield);
+			this.doOk = function () {
+				alertFram.style.display = "none";
+				shield.style.display = "none";
+			}
+			alertFram.focus();
+			document.body.onselectstart = function () { return false; };
+		}
+	</script>
 
-友情提示：按ctrl+F查询名称
+	<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+		<p>惩罚抽取</p>
+	</div>
+</body>
 
-| 名称             | 犯罪日期   | 罪行                                                 |
-| ---------------- | ---------- | ---------------------------------------------------- |
-| 家有一只小猴子   | 不详       | 司马提莫                                             |
-| 心心了了         | 长期犯罪   | 放狗咬人，带几个狗就在那里装b                        |
-| 游到海水变蓝     | 不详       | 摆烂                                                 |
-| 小星星           | 不详       | 带'小心心的保安'咬人                                 |
-| dan              | 不详       | 选个b安妮a人技能都丢不明白，后发抖音装可爱博取同情。 |
-| 薇薇一动你恩恩叫 | 2021-12-29 | 泰坦菜                                               |
-| 太晚熟           | 2021-12-29 | 又菜又嘴硬                                           |
-| 提你阿莫         | 2021-12-29 | 上单牧魂人养爹                                       |
-| 一个人的大冒险   | 2021-12-26 | 豹女，菜还浪                                         |
-| 城南丶C          | 2021-12-25 | 司马上单狗头，晋级赛生死局输掉                       |
-| 秘奥义暗影杀缭乱 | 2021-12-26 | 刀妹玩的跟一坨屎一样，一辈子单带，不参团，1打5送死   |
-| 你最好有妈       | 2021-12-25 | 摆烂永恩上单                                         |
-| 丿缪斯Karel      | 2021-12-25 | 非常菜的皇子                                         |
-| 木兰不会         | 2021-12-24 | 狗屎艾克（第二件就出金身）                           |
-| 钻石摆烂王       | 2021-12-25 | 男枪连续坑我两把，纯摆烂哥                           |
-| GalenSx       | 2021-12-30 |星妈绝活妹妹，菜得离谱，不会消耗，没有e技能。团战没她。一直给机会 |
-| 00723587     | 2022-1-1  |菜b剑魔，无线被对位单杀，躺赢都躺不明白 |
-|我爱黑崎一护| 2022-1-10  |补位机器人，菜，爱狗叫 |
-|海潮也会退去丶| 2022-1-10  |犯下了菜还爱叫的罪行 |
-|再见灬信仰丶KoBe丶| 2022-1-10  |梦游打野，犯错了就骂家人，属于是科比粉丝的真实写照了 |
-|软萌蜜糖酱| 2022-1-10  |铁男打不过狗熊，养大爹 |
-|神明喜欢看樱花| 2022-1-10  |铂金二摆烂螳螂，刷野刷不过，抓人抓不过。 |
-|暗恋北大的她四年| 2022-1-10  |剑魔对线万豪被无限单杀，推线不动脑子，打团b用没有。 |
-|我与辅助上过啊| 2022-1-11  |摆烂火男，死得多了去中路送，导致下路被越塔。 |
-|海底月是天上月c| 2022-1-11  |垃圾厄加特养爹 |
-|拒绝摆烂丨| 2022-1-12  |第一把混，第二把辅助露露，菜，狗叫 |
-|也曾是彼此的希望| 2022-1-12  |垃圾泰坦摆烂，在对面，我赢了，第二把他在我这边，垃圾诺手，帮不起来|
-|将爱意扼杀| 2022-1-12  |摆烂王|
-|不知天上宫阙| 2022-1-16  |这个苏轼的泰坦真的畜生|
-|收米带王| 2022-1-16  |纯演员|
-|喜欢连麦| 2022-1-16  |不知道（反正犯罪了）|
-|不想玩啦艾瑞莉娅| 2022-1-16  |玩不来永恩嗯玩 纯绿色|
-|ssfadg| 2022-1-16  |AD玩的和刺客一样 打野和中路一去就死 发信号都没用|
-|狼图腾的愤怒| 2022-1-16  |玩不来打野嗯玩|
-|angel丶大宝贝| 2022-1-16  |20分钟0 2 0挖掘机|
-|猪猪侠| 2022-1-16  |10分钟被对面打野压3级|
-|桐子山丶中贱| 2022-1-16  |垃圾阿卡丽养爹|
-|RaeXeq| 2022-1-16  |啥B男枪，脏线，吃炮车回推线|
-|听说月亮忘了| 2022-1-16  |手残幕刃，挂机瑶瑶|
-|徐徐女青竖心台| 2022-1-16  |菜b女坦，瞎开瞎送|
-|只有影子了| 2022-1-16  |劫绝活，前期K头，K玩就送对面被爆掉的老鼠养爹|
-
-
-
-本名单所叙述内容均属实，如有不服，欢迎来辩。同时，我希望广大上分玩家能给我提供更多信息。大家一同营造良好的竞技环境。
-联系方式：1524326361@qq.com
-
-![正义执行](正义执行.jpg)
+</html>
